@@ -1,4 +1,5 @@
 # **Dan Manez**
+
 ![QA Automation](https://img.shields.io/badge/QA%20Automation-Python%20%7C%20Selenium%20%7C%20CI%2FCD-blue)
 
 **QA Engineer | SDET | Automation Engineer**
@@ -11,7 +12,7 @@
 
 ## **Live Site**
 
-https://upt3mpo.github.io/resume/
+<https://upt3mpo.github.io/resume/>
 
 ---
 
@@ -42,7 +43,7 @@ QA Engineer and SDET with 9 years of experience owning test automation and relea
 
 ## **Experience**
 
-### **QA Engineer / SDET, Platform and Release Readiness** | Sony Interactive Entertainment (PlayStation) | *2013 to 2024*
+### **QA Engineer / SDET, Platform and Release Readiness** | Sony Interactive Entertainment (PlayStation) | *2015 to 2024*
 
 - Built and maintained Python and Selenium automation frameworks integrated with CI/CD pipelines using Docker, Kubernetes, and GitLab, enabling consistent automated test execution across web, API, and platform test surfaces.
 - Consolidated 30-plus internal applications under a single CI/CD-integrated automation system, functioning as an ongoing production monitoring layer with built-in alerting.
