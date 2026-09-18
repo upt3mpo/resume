@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dan Manez | QA Engineer &amp; SDET</title>
+<meta name="description" content="QA Engineer and SDET with 9 years of experience owning test automation and release quality for live-service platforms.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0d1117;
+    --panel: #151b23;
+    --panel-alt: #1a212b;
+    --border: #262e3a;
+    --teal: #2fb8ac;
+    --teal-bright: #4fd6c9;
+    --text: #e6e9ee;
+    --text-dim: #9aa4b2;
+    --text-faint: #6b7684;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    background-image: radial-gradient(ellipse 800px 500px at 85% -10%, rgba(47,184,172,0.09), transparent 60%);
+    color: var(--text);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; color: var(--text); margin: 0; }
+
+  a { color: var(--teal-bright); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .wrap { max-width: 820px; margin: 0 auto; padding: 0 24px; }
+
+  header.hero {
+    padding: 72px 0 40px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  h1 { font-size: 2.3rem; font-weight: 700; }
+
+  .title-line {
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--teal-bright);
+    font-weight: 600;
+    font-size: 1.15rem;
+    margin-top: 8px;
+  }
+
+  .subtitle {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    margin-top: 6px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 22px;
+    font-size: 0.92rem;
+    color: var(--text-dim);
+  }
+
+  .contact-row a { color: var(--text-dim); }
+  .contact-row a:hover { color: var(--teal-bright); }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--teal-bright);
+    background: rgba(47,184,172,0.1);
+    border: 1px solid rgba(47,184,172,0.35);
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  section { padding: 44px 0; }
+  section + section { border-top: 1px solid var(--border); }
+
+  .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.75rem;
+    color: var(--teal);
+    margin-bottom: 12px;
+  }
+
+  h2 { font-size: 1.35rem; margin-bottom: 18px; }
+
+  .summary-text { color: var(--text-dim); max-width: 68ch; }
+
+  .accomplishments { list-style: none; margin: 0; padding: 0; }
+
+  .accomplishments li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 14px;
+    color: var(--text-dim);
+  }
+
+  .accomplishments li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 8px;
+    height: 8px;
+    background: var(--teal);
+    border-radius: 1px;
+    transform: rotate(45deg);
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 32px;
+  }
+
+  .skill-group h3 {
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--teal-bright);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .skill-group p { margin: 0; color: var(--text-dim); font-size: 0.94rem; }
+
+  .job { margin-bottom: 34px; }
+  .job:last-child { margin-bottom: 0; }
+
+  .job-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+
+  .job-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 1.08rem;
+  }
+
+  .job-dates {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.82rem;
+    color: var(--text-faint);
+    white-space: nowrap;
+  }
+
+  .job-org { color: var(--teal-bright); font-size: 0.93rem; margin-bottom: 12px; }
+
+  .job ul { margin: 0; padding-left: 20px; color: var(--text-dim); }
+  .job li { margin-bottom: 8px; font-size: 0.95rem; }
+
+  .edu-degree { font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 1.05rem; }
+  .edu-school { color: var(--text-dim); margin-top: 4px; }
+
+  footer {
+    padding: 40px 0 70px;
+  }
+
+  footer p { color: var(--text-dim); max-width: 60ch; }
+
+  .connect-links { margin-top: 14px; display: flex; gap: 20px; flex-wrap: wrap; }
+
+  @media (max-width: 560px) {
+    header.hero { padding: 48px 0 32px; }
+    h1 { font-size: 1.8rem; }
+    .skills-grid { grid-template-columns: 1fr; }
+    .job-head { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="hero">
+    <h1>Dan Manez</h1>
+    <div class="title-line">QA Engineer &middot; SDET &middot; Automation Engineer</div>
+    <div class="subtitle">Test Automation &amp; Frameworks &middot; CI/CD Integration &middot; Release Readiness &amp; Quality Reporting</div>
+
+    <div class="contact-row">
+      <span>Los Angeles, CA</span>
+      <a href="mailto:danmanez@gmail.com">danmanez@gmail.com</a>
+      <span>(818) 239-6976</span>
+      <a href="https://linkedin.com/in/danmanez" target="_blank" rel="noopener">linkedin.com/in/danmanez</a>
+      <a href="https://github.com/upt3mpo" target="_blank" rel="noopener">github.com/upt3mpo</a>
+    </div>
+
+    <div class="badge">QA AUTOMATION &middot; PYTHON &middot; SELENIUM &middot; CI/CD</div>
+  </header>
+
+  <section>
+    <div class="eyebrow">Summary</div>
+    <p class="summary-text">QA Engineer and SDET with 9 years of experience owning test automation and release quality for live-service platforms. Built Python and Selenium automation frameworks integrated into CI/CD pipelines across Docker, Kubernetes, and GitLab, and operated a distributed test infrastructure spanning 20-plus hardware and OS configurations. Directed release readiness for cross-functional release cycles, translating test and defect data into stakeholder-ready quality reporting. Background also includes infrastructure design in HIPAA-regulated healthcare environments and technical documentation and training.</p>
+  </section>
+
+  <section>
+    <div class="eyebrow">Key Accomplishments</div>
+    <ul class="accomplishments">
+      <li>Cut manual status reporting for multiple cross-functional teams by building real-time quality dashboards that translated raw test and defect data into stakeholder-ready risk signals.</li>
+      <li>Consolidated 30-plus internal applications into a single CI/CD-integrated automation system, turning fragmented manual checks into an ongoing production monitoring layer with built-in alerting.</li>
+      <li>Scaled test coverage across a 20-plus configuration hardware and software farm, enabling hundreds of concurrent automated test runs without adding headcount.</li>
+      <li>Led a healthcare organization's full paper-to-EMR migration with zero data loss, using a parallel-run cutover plan that protected patient records throughout the transition.</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="eyebrow">Core Skills</div>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Languages &amp; Automation</h3>
+        <p>Python, Bash, Selenium, Playwright, PowerShell (scripting)</p>
+      </div>
+      <div class="skill-group">
+        <h3>CI/CD &amp; Infrastructure</h3>
+        <p>Docker, Kubernetes, GitLab CI, GitHub Actions, Ansible, Terraform</p>
+      </div>
+      <div class="skill-group">
+        <h3>QA Practice</h3>
+        <p>Test planning, defect triage and root cause analysis, regression strategy, release readiness, risk-based test coverage, quality metrics reporting</p>
+      </div>
+      <div class="skill-group">
+        <h3>Systems &amp; Networking</h3>
+        <p>Active Directory, Windows Server, VMware, VLAN segmentation, firewall administration, VOIP</p>
+      </div>
+      <div class="skill-group">
+        <h3>Documentation</h3>
+        <p>Technical writing, runbooks, onboarding programs, stakeholder dashboards</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Experience</div>
+
+    <div class="job">
+      <div class="job-head">
+        <span class="job-title">QA Engineer / SDET, Platform and Release Readiness</span>
+        <span class="job-dates">2013 &ndash; 2024</span>
+      </div>
+      <div class="job-org">Sony Interactive Entertainment (PlayStation)</div>
+      <ul>
+        <li>Built and maintained Python and Selenium automation frameworks integrated with CI/CD pipelines using Docker, Kubernetes, and GitLab, enabling consistent automated test execution across web, API, and platform test surfaces.</li>
+        <li>Consolidated 30-plus internal applications under a single CI/CD-integrated automation system, functioning as an ongoing production monitoring layer with built-in alerting.</li>
+        <li>Built and operated a distributed test infrastructure spanning 20-plus hardware and software configurations, supporting hundreds of concurrent automated test runs across 8 cross-functional teams.</li>
+        <li>Served as a release readiness authority across frequent production release cycles, approving or blocking release candidates based on structured validation criteria, defect triage, and risk assessment.</li>
+        <li>Built real-time quality reporting dashboards that translated raw test and defect data into stakeholder-ready risk signals, replacing manual status reporting for 8 teams and their leadership.</li>
+        <li>Conducted root cause investigation through log analysis and reproduction isolation on hard-to-reproduce defects, shortening engineering fix cycles with clear, actionable diagnostic documentation.</li>
+        <li>Built a full remote onboarding program with recorded video walkthroughs and interactive tutorials, and authored runbooks and knowledge base articles used across the team.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <span class="job-title">IT Administrator</span>
+        <span class="job-dates">2008 &ndash; 2013</span>
+      </div>
+      <div class="job-org">Glendale Home Health Care &amp; California Mobile X-Ray</div>
+      <ul>
+        <li>Designed and built full network and server infrastructure from scratch across two concurrent HIPAA-governed healthcare organizations, including VLAN segmentation, firewall configuration, and Windows Server deployment across 20-plus endpoints.</li>
+        <li>Owned Active Directory administration end to end, including Group Policy, user and group provisioning, and access controls supporting HIPAA-compliant data boundaries.</li>
+        <li>Led the organization's full transition from paper-based patient records to an electronic medical records system, including vendor coordination, staff training, and a parallel-run cutover plan that resulted in zero data loss.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <span class="job-title">Design Coordinator</span>
+        <span class="job-dates">2004 &ndash; 2006</span>
+      </div>
+      <div class="job-org">Tribune USA</div>
+      <ul>
+        <li>Coordinated design production and copywriting for a national publication, managing layout and content deadlines.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head">
+        <span class="job-title">UX Designer</span>
+        <span class="job-dates">2002 &ndash; 2003</span>
+      </div>
+      <div class="job-org">Walt Disney Internet Group</div>
+      <ul>
+        <li>Contributed UX design work across Disney's internet properties, collaborating with cross-functional product and engineering teams.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Education</div>
+    <div class="edu-degree">B.S., Multimedia Design and Technology Communications</div>
+    <div class="edu-school">Mt. Sierra College</div>
+  </section>
+
+  <footer>
+    <div class="eyebrow">Let's Connect</div>
+    <p>Feel free to reach out about automation tooling, QA frameworks, or open roles. I'm always open to collaborations that make testing smarter and faster.</p>
+    <div class="connect-links">
+      <a href="mailto:danmanez@gmail.com">Email</a>
+      <a href="https://linkedin.com/in/danmanez" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/upt3mpo" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+
+</div>
+
+</body>
+</html>
