@@ -1,57 +1,74 @@
 # **Dan Manez**
-![QA Automation](https://img.shields.io/badge/QA%20Automation-Python%20%7C%20Playwright%20%7C%20CI%2FCD-blue)
+![QA Automation](https://img.shields.io/badge/QA%20Automation-Python%20%7C%20Selenium%20%7C%20CI%2FCD-blue)
 
-**Senior QA Engineer | Quality Strategy | Systems Validation**  
-📍 Los Angeles, CA | 📧 [danmanez@gmail.com](mailto:danmanez@gmail.com) | 📞 (818) 239-6976  
+**QA Engineer | SDET | Automation Engineer**
+📍 Los Angeles, CA | 📧 [danmanez@gmail.com](mailto:danmanez@gmail.com) | 📞 (818) 239-6976
 🔗 [linkedin.com/in/danmanez](https://linkedin.com/in/danmanez) | [github.com/upt3mpo](https://github.com/upt3mpo)
+
+*Test Automation & Frameworks | CI/CD Integration | Release Readiness & Quality Reporting*
 
 ---
 
 ## **Summary**
-Senior QA Engineer with 9+ years of experience owning quality strategy, test planning, and release readiness for complex, distributed systems across console, web, and cloud platforms. Defi nes QA standards, identifies risk early, and partners closely with engineering, product, and release stakeholders to drive system-level reliability. Uses automation intentionally to scale validation and inform decisions, with primary focus on quality outcomes and release confidence.
+
+QA Engineer and SDET with 9 years of experience owning test automation and release quality for live-service platforms. Built Python and Selenium automation frameworks integrated into CI/CD pipelines across Docker, Kubernetes, and GitLab, and operated a distributed test infrastructure spanning 20-plus hardware and OS configurations. Directed release readiness for cross-functional release cycles, translating test and defect data into stakeholder-ready quality reporting. Background also includes infrastructure design in HIPAA-regulated healthcare environments and technical documentation and training.
+
+---
+
+## **Key Accomplishments**
+
+- Cut manual status reporting for multiple cross-functional teams by building real-time quality dashboards that translated raw test and defect data into stakeholder-ready risk signals.
+- Consolidated 30-plus internal applications into a single CI/CD-integrated automation system, turning fragmented manual checks into an ongoing production monitoring layer with built-in alerting.
+- Scaled test coverage across a 20-plus configuration hardware and software farm, enabling hundreds of concurrent automated test runs without adding headcount.
+- Led a healthcare organization's full paper-to-EMR migration with zero data loss, using a parallel-run cutover plan that protected patient records throughout the transition.
+
+---
+
+## **Core Skills**
+
+**Languages & Automation:** Python, Bash, Selenium, Playwright, PowerShell (scripting)
+**CI/CD & Infrastructure:** Docker, Kubernetes, GitLab CI, GitHub Actions, Ansible, Terraform
+**QA Practice:** Test planning, defect triage and root cause analysis, regression strategy, release readiness, risk-based test coverage, quality metrics reporting
+**Systems & Networking:** Active Directory, Windows Server, VMware, VLAN segmentation, firewall administration, VOIP
+**Documentation:** Technical writing, runbooks, onboarding programs, stakeholder dashboards
 
 ---
 
 ## **Experience**
 
-### **Sony Interactive Entertainment (PlayStation)** | **Senior QA Engineer** | *2015–2024*  
-- Owned test strategy and validation planning for large-scale services supporting PlayStation web, console, and cloud streaming platforms.
-- Defined test scope across multiple features and releases, balancing coverage, risk, and delivery timelines in partnership with engineering and release teams.
-- Led validation efforts focused on reliability, performance, networking behavior, and failure scenarios in distributed systems.
-- Directed the use of automation to reduce repetitive testing, improve signal quality, and increase confidence in release decisions.
-- Served as a senior QA partner for engineers and product stakeholders, contributing to design reviews, go/no-go decisions, and post-release analysis.
+### **QA Engineer / SDET, Platform and Release Readiness** | Sony Interactive Entertainment (PlayStation) | *2013 to 2024*
 
----
+- Built and maintained Python and Selenium automation frameworks integrated with CI/CD pipelines using Docker, Kubernetes, and GitLab, enabling consistent automated test execution across web, API, and platform test surfaces.
+- Consolidated 30-plus internal applications under a single CI/CD-integrated automation system, functioning as an ongoing production monitoring layer with built-in alerting.
+- Built and operated a distributed test infrastructure spanning 20-plus hardware and software configurations, supporting hundreds of concurrent automated test runs across 8 cross-functional teams.
+- Served as a release readiness authority across frequent production release cycles, approving or blocking release candidates based on structured validation criteria, defect triage, and risk assessment.
+- Built real-time quality reporting dashboards that translated raw test and defect data into stakeholder-ready risk signals, replacing manual status reporting for 8 teams and their leadership.
+- Conducted root cause investigation through log analysis and reproduction isolation on hard-to-reproduce defects, shortening engineering fix cycles with clear, actionable diagnostic documentation.
+- Built a full remote onboarding program with recorded video walkthroughs and interactive tutorials, and authored runbooks and knowledge base articles used across the team.
 
-## **Selected Projects & Impact**
+### **IT Administrator** | Glendale Home Health Care & California Mobile X-Ray | *2008 to 2013*
 
-- Reduced release risk by consolidating fragmented validation approaches into a unified quality strategy adopted across multiple teams.
-- Identified compatibility, performance, and network-related risks for high-visibility platform releases prior to launch.
-- Improved release readiness decision-making through clearer reporting on coverage gaps, known risks, and system health signals.
+- Designed and built full network and server infrastructure from scratch across two concurrent HIPAA-governed healthcare organizations, including VLAN segmentation, firewall configuration, and Windows Server deployment across 20-plus endpoints.
+- Owned Active Directory administration end to end, including Group Policy, user and group provisioning, and access controls supporting HIPAA-compliant data boundaries.
+- Led the organization's full transition from paper-based patient records to an electronic medical records system, including vendor coordination, staff training, and a parallel-run cutover plan that resulted in zero data loss.
+
+### **Design Coordinator** | Tribune USA | *2004 to 2006*
+
+- Coordinated design production and copywriting for a national publication, managing layout and content deadlines.
+
+### **UX Designer** | Walt Disney Internet Group | *2002 to 2003*
+
+- Contributed UX design work across Disney's internet properties, collaborating with cross-functional product and engineering teams.
 
 ---
 
 ## **Education**
 
-**Mt. Sierra College**  
-Bachelor of Science, Media Design & Technology
+**B.S., Multimedia Design and Technology Communications**
+Mt. Sierra College
 
 ---
 
-## **Technical and Quality Context**
+### 💬 *Let's Connect*
 
-**Quality & Systems**  
-Distributed systems testing, service and storage validation, networking and latency analysis, performance and reliability testing  
-
-**Automation & Tooling**  
-Automation to reduce manual validation, regression and release readiness testing, custom tooling to eliminate repetitive workflows  
-
-**Engineering Environment**  
-Python scripting for test systems and validation workfl ows, CI-based validation pipelines, containerized test environments
-
----
-
-### 💬 *Let’s Connect*
-Feel free to reach out about automation tooling, QA frameworks, or open roles.  
-I’m always open to collaborations that make testing smarter and faster.
-
+Feel free to reach out about automation tooling, QA frameworks, or open roles. I'm always open to collaborations that make testing smarter and faster.
