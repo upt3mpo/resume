@@ -1,18 +1,11 @@
 # **Dan Manez**
-
 ![QA Automation](https://img.shields.io/badge/QA%20Automation-Python%20%7C%20Selenium%20%7C%20CI%2FCD-blue)
 
 **QA Engineer | SDET | Automation Engineer**
 📍 Los Angeles, CA
-🔗 [linkedin.com/in/danmanez](https://linkedin.com/in/danmanez) | [github.com/upt3mpo](https://github.com/upt3mpo)
+🔗 [linkedin.com/in/danmanez](https://linkedin.com/in/danmanez) | [github.com/upt3mpo](https://github.com/upt3mpo) | [upt3mpo.github.io/resume](https://upt3mpo.github.io/resume/)
 
 *Test Automation & Frameworks | CI/CD Integration | Release Readiness & Quality Reporting*
-
----
-
-## **Live Site**
-
-<https://upt3mpo.github.io/resume/>
 
 ---
 
