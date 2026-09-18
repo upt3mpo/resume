@@ -2,7 +2,7 @@
 ![QA Automation](https://img.shields.io/badge/QA%20Automation-Python%20%7C%20Selenium%20%7C%20CI%2FCD-blue)
 
 **QA Engineer | SDET | Automation Engineer**
-📍 Los Angeles, CA | 📧 [danmanez@gmail.com](mailto:danmanez@gmail.com) | 📞 (818) 239-6976
+📍 Los Angeles, CA
 🔗 [linkedin.com/in/danmanez](https://linkedin.com/in/danmanez) | [github.com/upt3mpo](https://github.com/upt3mpo)
 
 *Test Automation & Frameworks | CI/CD Integration | Release Readiness & Quality Reporting*
