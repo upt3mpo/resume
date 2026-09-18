@@ -9,6 +9,12 @@
 
 ---
 
+## **Live Site**
+
+https://upt3mpo.github.io/resume/
+
+---
+
 ## **Summary**
 
 QA Engineer and SDET with 9 years of experience owning test automation and release quality for live-service platforms. Built Python and Selenium automation frameworks integrated into CI/CD pipelines across Docker, Kubernetes, and GitLab, and operated a distributed test infrastructure spanning 20-plus hardware and OS configurations. Directed release readiness for cross-functional release cycles, translating test and defect data into stakeholder-ready quality reporting. Background also includes infrastructure design in HIPAA-regulated healthcare environments and technical documentation and training.
